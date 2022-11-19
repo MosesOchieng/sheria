@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>report case</title>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+  <h1 id="title" class="text-center">Fill the form below..</h1>
+</header>
+<section class="student-detail" id="student-detail">
+  <div class="form-group">
+    <label for="reg-no" id="reg-label">Full Names / Majina kamili: </label>
+    <input type="number" name="reg-no" id="reg-no" class="form-control " placeholder="Full Names " required>
+  </div>
+  <div class="form-group">
+    <label for="roll-no" id="roll-label">Id Number / Nambari ya Kitambulisho.: </label>
+    <input type="number" name="roll-no" id="roll-no" class="form-control" placeholder="Enter ID number" required>
+  </div>
+  <div class="form-group">
+    <label for="student-name" id="student-label">Phone Number / Nambari Ya Simu: </label>
+    <input type="text" name="student-name" id="student-name" class="form-control" placeholder="Enter phone number" required>
+  </div>
+  <div class="form-group">
+    <label for="father-name" id="father-label">Case / KIsa : </label>
+    <input type="text" size ="50" name="father-name" id="father-name" class="form-control" placeholder="Enter your reported case" required>
+  </div>
+  <div class="form-group">
+    <label for="stream" id="stream-label">Gender:</label>
+    <select id="stream" name="stream" class="form-control" required>
+      <option disabled selected value>Select your Location</option>
+      <option value="Male">Female</option>
+      <option value="Female">Male</option>
+
+    </select>
+
+  </div>
+  <div class="form-group">
+    <label for="stream" id="stream-label">Location:</label>
+    <select id="stream" name="stream" class="form-control" required>
+      <option disabled selected value>Select your Location</option>
+      <option value="Nairobi">Nairobi</option>
+      <option value="Mombasa">Mombasa</option>
+      <option value="Nakuru">Nakuru</option>
+      <option value="Kakamega">Kakamega</option>
+      <option value="Marsabit">Marsabit</option>
+      <option value="Turkana">Turkana</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <button type="submit" id="submit" class="submit-button">Submit</button>
+  </div>
+</section>
+<!-- partial -->
+
+</body>
+</html>
