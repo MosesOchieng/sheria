@@ -32,7 +32,7 @@
 	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="#about" class="nav-link">Objectives and Technology.</a></li>
 	          <li class="nav-item"><a href="public/login/log.php" class="nav-link">Log in</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Organisation login</a></li>
+            <li class="nav-item"><a href="public/partner/index.php" class="nav-link">Organisation login</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Partners</a></li>
 
 	        </ul>

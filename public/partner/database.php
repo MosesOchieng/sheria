@@ -4,7 +4,7 @@ header("Refresh:2;url= ../loading/index.php");
 $servername = "localhost";
 $username = "root";
 $password = "";
-$db = "samba";
+$db = "sheria";
 
 // Creating connection
 $conn = new mysqli($servername, $username, $password,$db);
