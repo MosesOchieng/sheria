@@ -246,7 +246,7 @@
     <br>
     <br>
   <a class="Button Yellow" href="#">Follow Up on Case..</a>
-  <a class="Button Red" href="report/index.html">Report Case</a>
+  <a class="Button Red" href="report/index.php">Report Case</a>
 </div>
 </div>
 <!-- partial -->
