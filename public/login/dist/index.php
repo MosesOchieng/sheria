@@ -66,7 +66,7 @@
               <p>or use your email for registration</p>
             </section>
 
-            <form class="input-group" action=" ../l/authentication.php" method="post">
+            <form class="input-group" action=" ../l/index.php" method="post">
               <div class="name-input input">
                 <label>Name</label>
                 <input type="text" />

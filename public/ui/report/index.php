@@ -1,3 +1,8 @@
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -11,12 +16,12 @@
 <div class="container">
 	<h1>Report Sexual Harrasment and any other form of work bullying Sasa</h1>
 
-<form action=" ../r/index.html" method="post">
+<form action="#" method="post" id="report">
   <div>
   <p>
     <label>
       Full names / Majina Kamili <br>
-    <input type="text" placeholder="Placeholder" value="full names">
+    <input type="text" id="file" placeholder="Placeholder" value="full names">
     </label>
   </p>
 
@@ -52,8 +57,6 @@
     <input type="date">
     </label>
   </p>
-
-  <p>
     <label>
       month / mwezi<br>
     <input type="month">
@@ -101,6 +104,39 @@
 </div>
 <!-- partial -->
   <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+<script>
 
+var fileList = [];
+
+$('#file').on('change', function (event) {
+
+	fileList = [];
+
+	// Append files to fileList
+	for (var i = 0; i < this.files.length; i++) {
+		fileList.push(this.files[i]);
+	}
+});
+
+sendFile = function (file) {
+
+	// Create Ajax Request
+	$.ajax({
+		url: ' ../.php',
+		type: 'POST',
+		data: new FormData($('form')[0]),
+		cache: false,
+		contentType: false,
+		processData: false
+	});
+}
+
+$('#report').on('submit', function (event) {
+	event.preventDefault();
+
+	//Asynchronous Transfer
+	sendFile(file);
+});
+</script>
 </body>
 </html>

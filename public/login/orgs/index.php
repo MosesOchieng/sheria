@@ -169,7 +169,7 @@ searchInput.addEventListener('input', e => {
     })
 })
 
-fetch("https://jsonplaceholder.typicode.com/users")
+fetch("user.json")
     .then(res => res.json())
     .then(data => {
       users = data.map(user => {

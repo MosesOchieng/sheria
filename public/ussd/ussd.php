@@ -61,7 +61,7 @@ if ($text == "") {
   $response .= "3. Pay and work policies Discrimination \n";
   $response .= "4. Back";
 
-}else if($text == "3*1*1"){
+}else if($text == "1*1*1*1"){
   $response = "CON Chagua Maaeneo ya Kuishi. \n";
   $response .= "1. Nairobi \n";
   $response .= "2. Mombasa. \n";
@@ -75,13 +75,22 @@ if ($text == "") {
   $response .= "3. Pay and work policies Discrimination \n";
   $response .= "4. Back";
 
-}else if($text == "1*1*1*1"){
+}else if($text == "1*1*1*1*1"){
   $response = "END You will receive a link that will prompt you to allow for your location.";
 
 
-}else if($text == "3*2"){
 
-}else if($text =="4*2"){
+}else if($text == "1*1*2*1"){
+  $response = "CON Chagua Maaeneo ya Kuishi. \n";
+  $response .= "1. Nairobi \n";
+  $response .= "2. Mombasa. \n";
+  $response .= "3. Kisumu. \n";
+  $response .= "4. Nakuru.";
+
+
+}else if($text == "1*1*1*2*1"){
+  $response = "END You will receive a link that will prompt you to allow for your location.";
+
 
 }
 // Echo the response back to the API
